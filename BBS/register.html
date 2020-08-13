@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> ע��ҳ�� </title>
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script>
+function check(){
+	var password = documentElementById("pw").value;
+	var rpassword = documentElementById("rpw").value;
+	if(password == rpassword)
+	{
+		document.getElementById("check").innerHTML="<br><font color='green'>两次密码输入一�?/font>";
+    	document.getElementById("submit").disabled = false;
+	}
+	else
+	{
+	    document.getElementById("check").innerHTML="<br><font color='red'>两次输入密码不一�?</font>";
+	    document.getElementById("submit").disabled = true; 
+
+	}
+	}
+</script>
+</head>
+<body>
+
+<div id="part1" style="width:1000px;">
+
+
+<div id="register" style="width:400px;float:left;height:600px">
+
+<h1 class="head1">BBS register</h1>
+
+<form action="register.php" method="post">
+Email:<br>
+<input type="email" name='email'  required>
+<br>
+Username:<br>
+<input type="text" name='Username' required>
+<br>
+Password:<br>
+<input type="password" name='psw' id='pw' required>
+<br>
+Input your password again:<br>
+<input type="password" name="psw_check" id='rpw' onkeyup="check()" required>
+<span id="check"> </span>
+<br><br>
+
+<input name="submit" type="submit" value="register">
+
+</form>
+</div>
+
+</div>
+
+</body>
+
+</html>

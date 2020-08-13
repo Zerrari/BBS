@@ -1,0 +1,58 @@
+#register {
+	background-image: url("images/th.jpg");
+	background-image: url("images/th.jpg");
+	background-color: grey;
+	text-align: center;
+	float: left;
+	border-style: solid;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+	font-family: Monospace;
+	font-size: 25px;
+	width: 500px;
+	margin: 10px;
+	padding: 5px;
+	margin-left: 400px;
+}
+
+.head1 {
+	font-style: italic;
+	font-variant: small-caps;
+	font-family: Monospace;
+}
+
+.head2 {
+	font-style: italic;
+	font-variant: small-caps;
+	font-family: Monospace;
+}
+	
+#photo {
+	float: left;
+}
+
+#log {
+	text-align: center;
+	float: left;
+	border-style: solid;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+	font-family: Monospace;
+	font-size: 25px;
+	width: 500px;
+	margin: 10px;
+	padding: 5px;
+	margin-left: 500px;
+}
+#table {
+	font-size: 40px;
+	
+}
+
+.table {
+	font-size: 40px;
+}
